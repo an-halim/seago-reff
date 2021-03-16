@@ -1,0 +1,28 @@
+{
+  "name": "seago",
+  "version": "1.0.0",
+  "description": "Bot reff seago",
+  "main": "seago.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/an-halim/seago-reff.git"
+  },
+  "keywords": [
+    "Bot",
+    "refferal"
+  ],
+  "author": "anhalim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/an-halim/seago-reff/issues"
+  },
+  "homepage": "https://github.com/an-halim/seago-reff#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chance": "^1.1.7",
+    "delay": "^5.0.0"
+  }
+}
