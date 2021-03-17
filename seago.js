@@ -4,7 +4,6 @@ const { Console } = require('console');
 const Chance = new chance();
 const delay = require('delay');
 
-
 async function reg(reff){
     var nope = Chance.integer({min: 1000, max: 9999});
     var Nope = '0851515' + nope;
@@ -155,4 +154,4 @@ async function utama(rep){
     
 
 
-utama(4201626);
+utama(7757682);
