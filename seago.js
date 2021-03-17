@@ -142,7 +142,6 @@ async function utama(rep){
                 var p = await Pay(cok, sn);
                 var p = JSON.stringify(p);
                 console.log("========================================\n")
-                await axios.get(`https://api.telegram.org/bot1685163400:AAErh6cmyk8lWxFQn7CE9RM2qqzLydkZ8K8/sendMessage?chat_id=240468829&text=[INFO]%20Order-${i}%20Reff%20ke-${j}\nID->%20${sn}\n${p}\n====================================`);
                 await delay(1000);
             }
         } catch (error) {
